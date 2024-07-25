@@ -1,0 +1,15 @@
+{
+  "university":"Oliygohlar",
+  "faculties":"Yo'nalishlar",
+  "settings":"Sozlamalar",
+  "language":"Til",
+  "mode":"Kunduzgi/Tungi rejim",
+  "kunduzgi":"Kunduzgi",
+  "sirtqi":"Sirtqi",
+  "kechgi":"Kechgi",
+  "masofaviy":"Masofaviy",
+  "info": "Stipendiyali to'lov-kontrakti miqdori - amaldagi stipendiyali miqdorini 12 oyga ko'paytirilgan holda qo'shib hisoblanadi",
+  "attention": "Diqqat",
+  "search": "Qidirish",
+  "info_fee": "Ushbu yo'nalishning barcha turdagi ta'lim shakli bo'lmasligi mumkin, bo'lgan taqdirda, to'lov-kontrakti qiymati miqdori quyidagidek bo'ladi."
+}
