@@ -23,14 +23,14 @@ class _UniversityPageState extends State<UniversityPage> {
               color: checkMode(context) ? Colors.black : Colors.white),
         ),
         actions: [
-          InkWell(
+          GestureDetector(
             onTap: () => _open(context),
             child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 15),
                 child: SvgPicture.asset("assets/icons/info.svg")),
           ),
         ],
-        leading: InkWell(
+        leading: GestureDetector(
             onTap: () {
               Navigator.push(
                 context,

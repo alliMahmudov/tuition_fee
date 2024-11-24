@@ -15,12 +15,12 @@ class _RegionItemState extends State<RegionItem>{
   @override
   Widget build(BuildContext context) {
     return Consumer<MainProvider>(builder: (context, value, child) {
-      return InkWell(
+      return GestureDetector(
         onTap: () {
           RegionItem.regionId = widget.region.id;
 
           value.setSelectedId(RegionItem.regionId!);
-          print("Region ishladi ${widget.region.name}");
+          //print("Region ishladi ${widget.region.name}");
           Provider.of<MainProvider>(context, listen: false).readByRegion();
 
         },

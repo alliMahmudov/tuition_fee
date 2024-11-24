@@ -26,10 +26,10 @@ class _FacultyItemState extends State<FacultyItem> with TickerProviderStateMixin
             controller = BottomSheet.createAnimationController(this);
 
             // Animation duration for displaying the BottomSheet
-            controller.duration = const Duration(seconds: 1);
+            controller.duration = const Duration(milliseconds: 300);
 
             // Animation duration for retracting the BottomSheet
-            controller.reverseDuration = const Duration(seconds: 1);
+            controller.reverseDuration = const Duration(milliseconds: 300);
             // Set animation curve duration for the BottomSheet
             controller.drive(CurveTween(curve: Curves.easeInToLinear));
             facultyInfo(context);
